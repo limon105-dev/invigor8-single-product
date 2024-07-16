@@ -1,0 +1,43 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Mulish", sans-serif;
+}
+
+:root{
+    --black: #000000;
+    --btn-bg: #f26522;
+    --color-muted: #6c6c6c;
+    --white: #ffffff;
+    --antique-white: #faebd7;
+    --alice-blue: #f0f8ff;
+
+    
+}
+
+/* common css end */

@@ -1,0 +1,163 @@
+.single-product-accordion {
+    margin-top: 15px;
+}
+
+.single-product-accordion-item-title {
+    padding: 15px;
+    border-bottom: 1px solid var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.single-product-accordion-item-heading {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.single-product-accordion-item-icon {
+    width: 16px;
+    height: 24px;
+    color: var(--black);
+}
+
+.single-product-accordion-item-content {
+    padding-top: 15px;
+    display: none;
+}
+
+.single-product-accordion-item-content-wrapper {
+    background-image: url('../images/product-accordion-content-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px 20px 25px 20px;
+    -webkit-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+
+}
+
+.single-product-accordion-item-content-heading {
+    color: var(--white);
+    font-size: 23px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.single-product-accordion-item-content-heading2 {
+    padding-top: 5px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.single-product-accordion-item-content-body-item {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.single-product-accordion-item-content-body-text {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.single-product-accordion-item-icon {
+    transition: all linear .3s;
+}
+
+.single-product-accordion-item-content-body-icon svg {
+    width: 12px;
+    height: 12px;
+    color: var(--white);
+
+}
+
+.single-product-accordion-item-content-footer {
+    margin-top: 15px;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+}
+
+.single-product-accordion-item-content-footer-text {
+    padding: 10px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.single-product-accordion-item.active .single-product-accordion-item-icon {
+    transform: rotate(90deg);
+    transition: all linear .3s;
+}
+
+.single-product-accordion-item2-content-wrapper {
+    border-radius: 15px;
+    padding: 20px 20px 25px 20px;
+    -webkit-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-heading {
+    color: var(--black);
+    text-align: center;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-heading2 {
+    color: var(--black);
+    text-align: center;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-heading2 {
+    font-weight: 600;
+    margin-top: 7px
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-body-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-body-item {
+    display: unset;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-body-icon {
+    display: block;
+    text-align: center;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-body-icon svg {
+    width: 40px;
+    height: 75px;
+}
+
+.single-product-accordion-item2-content-wrapper .single-product-accordion-item-content-body-text {
+    color: var(--black);
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.single-product-accordion-item-content-img {
+    border-radius: 15px;
+    padding: 20px 20px 25px 20px;
+    -webkit-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.single-product-accordion-item-content-img img {
+    width: 100%;
+}

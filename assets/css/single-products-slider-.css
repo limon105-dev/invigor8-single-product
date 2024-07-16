@@ -1,0 +1,78 @@
+.single-products-section {
+  padding: 100px 0;
+}
+
+.single-products-items {
+  display: flex;
+  justify-content: center;
+}
+
+.single-products-item {
+  width: 590px;
+}
+
+.single-product-swiper-2{
+  border: 4px solid var(--btn-bg);
+  border-radius: 10px;
+}
+
+.single-product-swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0 10px 0;
+}
+
+.single-product-swiper .swiper-slide{
+  border: 4px solid var(--btn-bg);
+}
+
+.single-product-swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.single-product-swiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.single-product-swiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.single-product-swiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.single-product-swiper-2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.single-product-swiper-2 .swiper-button-next,
+.single-product-swiper-2 .swiper-button-prev {
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  background-color: var(--btn-bg);
+  border-radius: 50%;
+}
+
+.single-product-swiper-2 .swiper-button-next::after, .single-product-swiper-2 .swiper-button-prev::after {
+	font-size: 16px;
+}
